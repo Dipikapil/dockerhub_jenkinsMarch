@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_USERNAME = 'dipikapil'  // Replace with your Docker Hub username
         DOCKERHUB_PASSWORD = credentials('dockerhub_token')  // Use Jenkins credentials plugin to store the password securely
-        IMAGE_NAME = 'dipikapil/Dockerjenkins1'  // Replace with your Docker image name
+        IMAGE_NAME = 'dipikapil/dockerjenkins1'  // Replace with your Docker image name
     }
 
     stages {
